@@ -14,6 +14,7 @@ public class  DNASequencer {
         StringBuilder finalSequence= new StringBuilder("");
         String previousSubsequence=part.get(0);
         String currentSubsequence;
+        finalSequence.append(previousSubsequence);
         for(int iterator=1;iterator<part.size();iterator++) {
             currentSubsequence = part.get(iterator);
             String subSequenceinCommon = "";
@@ -23,23 +24,9 @@ public class  DNASequencer {
                     break;
                 }
             }
-            System.out.print("-------------------" + " \n\n");
-            System.out.print(subSequenceinCommon + " \n\n");
-            int positionOfPrev = previousSubsequence.indexOf(subSequenceinCommon) - 1;
-            System.out.print(positionOfPrev + " \n\n");
-
-
-            if (positionOfPrev == 0)
-                finalSequence.append(previousSubsequence.charAt(0));
-            else if (positionOfPrev > 0)
-                finalSequence.append(previousSubsequence.substring(0, positionOfPrev));
-            else
-                finalSequence.append(previousSubsequence);
-            System.out.print(finalSequence + " \n\n");
-
-            finalSequence.append(currentSubsequence);
+            int positionOfCur = currentSubsequence.indexOf(subSequenceinCommon);
+            finalSequence.append(currentSubsequence.substring(positionOfCur+subSequenceinCommon.length(),currentSubsequence.length()));
             previousSubsequence = currentSubsequence;
-            System.out.print(finalSequence + " \n\n");
         }
             return finalSequence.toString();
     }
