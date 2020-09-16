@@ -14,8 +14,8 @@ public class  DNASequencer {
         StringBuilder finalSequence= new StringBuilder("");
         String previousSubsequence=part.get(0);
         String currentSubsequence;
-        for(int iterator=1;iterator<part.size();iterator++){
-            currentSubsequence=part.get(iterator);
+        for(int iterator=1;iterator<part.size();iterator++) {
+            currentSubsequence = part.get(iterator);
             String subSequenceinCommon = "";
             for (int i = 0; i < previousSubsequence.length(); i++) {
                 if (currentSubsequence.contains(previousSubsequence.substring(i))) {
@@ -23,28 +23,24 @@ public class  DNASequencer {
                     break;
                 }
             }
-            System.out.print(subSequenceinCommon +" \n\n");
-            int positionOfPrev=previousSubsequence.indexOf(subSequenceinCommon)-1;
-            if(positionOfPrev>0)
-                finalSequence.append(previousSubsequence.substring(0, positionOfPrev -1 ));
+            System.out.print("-------------------" + " \n\n");
+            System.out.print(subSequenceinCommon + " \n\n");
+            int positionOfPrev = previousSubsequence.indexOf(subSequenceinCommon) - 1;
+            System.out.print(positionOfPrev + " \n\n");
+
+
+            if (positionOfPrev == 0)
+                finalSequence.append(previousSubsequence.charAt(0));
+            else if (positionOfPrev > 0)
+                finalSequence.append(previousSubsequence.substring(0, positionOfPrev));
             else
                 finalSequence.append(previousSubsequence);
-            System.out.print(finalSequence +" \n\n");
-            finalSequence.append(currentSubsequence);
-            previousSubsequence=currentSubsequence;
-            System.out.print(finalSequence +" \n\n");
-//
-//
-//            int positionOfPrev=previousSubsequence.indexOf(currentSubsequence);
-//            if(positionOfPrev!=-1)
-//                finalSequence.append(previousSubsequence.substring(0, positionOfPrev -1 ));
-//            else
-//                finalSequence.append(previousSubsequence);
-//            finalSequence.append(currentSubsequence);
-//            previousSubsequence=currentSubsequence;
+            System.out.print(finalSequence + " \n\n");
 
+            finalSequence.append(currentSubsequence);
+            previousSubsequence = currentSubsequence;
+            System.out.print(finalSequence + " \n\n");
         }
-        System.out.print(finalSequence);
-        return finalSequence.toString();
+            return finalSequence.toString();
     }
 }

@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +66,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -161,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
-      <workItem from="1600265629455" duration="2796000" />
+      <workItem from="1600265629455" duration="3946000" />
     </task>
     <servers />
   </component>
@@ -188,49 +187,42 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="692" y="346" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600267967938" />
-    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1600268265372">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1600269544422">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1600268265372">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269544422" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1600269544422">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1600268265372">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269544422" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1600269544421">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1600268265372">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269544421" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1600269544422">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1600268265372">
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269544422" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1600269388664">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1600268265372">
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269388664" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1600269388663">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1600268265372">
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269388663" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1600269388663">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1600268265372">
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269388663" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1600269388663">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600268265372" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269388663" />
+    <state x="449" y="189" width="1022" height="737" key="SettingsEditor" timestamp="1600269575076">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="449" y="189" width="1022" height="737" key="SettingsEditor/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269575076" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab4_requerimientos_funcionales_fabriziofranco$DNASequencerTest.ic" NAME="DNASequencerTest Coverage Results" MODIFIED="1600268109871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
