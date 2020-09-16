@@ -12,11 +12,10 @@
         <sonar.projectKey>cs2901-2020-2_lab4-requerimientos-funcionales-fabriziofranco</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>0b2f173c4570f629bcf0dfff59a874c7447c2239</sonar.login>
 
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
-
-        <sonar.projectKey>cs2901-2020-2_lab4-requerimientos-funcionales-fabriziofranco</sonar.projectKey>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
