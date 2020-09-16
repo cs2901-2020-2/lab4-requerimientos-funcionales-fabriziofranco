@@ -11,6 +11,20 @@ public class  DNASequencer {
     }
 
     public String calculate(List<String> part){
-        return "AGATTACAGA";
+        StringBuilder finalSequence= new StringBuilder("");
+        String previousSubsequence=part.get(0);
+        String currentSubsequence;
+        for(int iterator=1;iterator<part.size();iterator++){
+            currentSubsequence=part.get(iterator);
+            int positionOfPrev=previousSubsequence.indexOf(currentSubsequence);
+            if(positionOfPrev!=-1)
+                finalSequence.append(previousSubsequence.substring(0, positionOfPrev -1 ));
+            else
+                finalSequence.append(previousSubsequence);
+            finalSequence.append(currentSubsequence);
+            previousSubsequence=currentSubsequence;
+
+        }
+        return finalSequence.toString();
     }
 }
