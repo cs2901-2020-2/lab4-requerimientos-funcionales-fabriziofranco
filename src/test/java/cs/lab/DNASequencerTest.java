@@ -31,7 +31,17 @@ public class DNASequencerTest {
         generic(3);
     }
 
+    @Test(expectedExceptions = TooLongSubsequenceException.class)
+    public void testTooLongSubsequence2 () throws Exception{
+        generic(4);
+    }
 
+    @Test
+    public void testSubstringInCommon(){
+        String string1="INGENIERIA", string2="CS_ROCKS", substringInCommmon = "";
+        substringInCommmon = DNASequencer.getStringInCommon(string1, string2, substringInCommmon);
+        assert substringInCommmon.equals("");
+    }
 
     private void generic(int i) throws IOException, Exception {
         List<String> input = readInput(i);
