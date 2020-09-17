@@ -23,8 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyLinesExcepction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case3_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case3_output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +58,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hb2ly8rpEfg0U4unPPu0YalVSP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +78,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -78,6 +95,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,7 +179,8 @@
       <workItem from="1600228065558" duration="5421000" />
       <workItem from="1600265629455" duration="5928000" />
       <workItem from="1600271569983" duration="478000" />
-      <workItem from="1600272062190" duration="172000" />
+      <workItem from="1600272062190" duration="602000" />
+      <workItem from="1600348471519" duration="3486000" />
     </task>
     <servers />
   </component>
@@ -175,26 +204,38 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="418" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600267969763" />
+    <state x="627" y="360" width="657" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600351401392">
+      <screen x="0" y="29" width="3840" height="1051" />
+    </state>
+    <state x="627" y="360" width="657" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.29.3840.1051@0.29.3840.1051" timestamp="1600351401392" />
+    <state x="768" y="273" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1600351705213">
+      <screen x="0" y="29" width="3840" height="1051" />
+    </state>
+    <state x="768" y="273" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.29.3840.1051@0.29.3840.1051" timestamp="1600351705213" />
     <state x="692" y="346" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600267967938">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="692" y="346" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600267967938" />
-    <state width="1874" height="340" key="GridCell.Tab.0.bottom" timestamp="1600271557866">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom" timestamp="1600351921051">
+      <screen x="0" y="29" width="3840" height="1051" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600271557866" />
-    <state width="1874" height="340" key="GridCell.Tab.0.center" timestamp="1600271557866">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom/0.29.3840.1051@0.29.3840.1051" timestamp="1600351921051" />
+    <state width="1874" height="274" key="GridCell.Tab.0.center" timestamp="1600351921050">
+      <screen x="0" y="29" width="3840" height="1051" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.0.center/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600271557866" />
-    <state width="1874" height="340" key="GridCell.Tab.0.left" timestamp="1600271557866">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1874" height="274" key="GridCell.Tab.0.center/0.29.3840.1051@0.29.3840.1051" timestamp="1600351921050" />
+    <state width="1874" height="274" key="GridCell.Tab.0.left" timestamp="1600351921050">
+      <screen x="0" y="29" width="3840" height="1051" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.0.left/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600271557866" />
-    <state width="1874" height="340" key="GridCell.Tab.0.right" timestamp="1600271557866">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1874" height="274" key="GridCell.Tab.0.left/0.29.3840.1051@0.29.3840.1051" timestamp="1600351921050" />
+    <state width="1874" height="274" key="GridCell.Tab.0.right" timestamp="1600351921050">
+      <screen x="0" y="29" width="3840" height="1051" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.0.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600271557866" />
+    <state width="1874" height="274" key="GridCell.Tab.0.right/0.29.3840.1051@0.29.3840.1051" timestamp="1600351921050" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1600271557867">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -211,10 +252,22 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.1.right/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600271557866" />
-    <state x="449" y="189" width="1022" height="737" key="SettingsEditor" timestamp="1600269626543">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="1920" y="190" width="1920" height="737" key="SettingsEditor" timestamp="1600349478582">
+      <screen x="0" y="29" width="3840" height="1051" />
     </state>
     <state x="449" y="189" width="1022" height="737" key="SettingsEditor/0.28.1920.1052/1920.0.1920.1080@0.28.1920.1052" timestamp="1600269626543" />
+    <state x="1920" y="190" width="1920" height="737" key="SettingsEditor/0.29.3840.1051@0.29.3840.1051" timestamp="1600349478582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab4_requerimientos_funcionales_fabriziofranco$DNASequencerTest.ic" NAME="DNASequencerTest Coverage Results" MODIFIED="1600268109871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

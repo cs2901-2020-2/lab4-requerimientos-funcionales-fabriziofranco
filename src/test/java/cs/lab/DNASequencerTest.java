@@ -8,14 +8,32 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-@Test
+
 public class DNASequencerTest {
 
-    public void testCase0() throws IOException {
+    @Test
+    public void testCase0() throws Exception {
         generic(0);
     }
 
-    private void generic(int i) throws IOException {
+    @Test(invocationCount = 50, threadPoolSize = 50)
+    public void testCase1() throws Exception {
+        generic(0);
+    }
+
+    @Test(expectedExceptions = TooManyLinesExcepction.class)
+    public void testTooManyLines () throws Exception{
+        generic(2);
+    }
+
+    @Test(expectedExceptions = TooLongSubsequenceException.class)
+    public void testTooLongSubsequence () throws Exception{
+        generic(3);
+    }
+
+
+
+    private void generic(int i) throws IOException, Exception {
         List<String> input = readInput(i);
         String output = readOutput(i);
         DNASequencer sequencer = new DNASequencer();
@@ -38,6 +56,7 @@ public class DNASequencerTest {
         fileName = fileName.replace("<testNumber>", Integer.toString(testNumber));
         fileName = fileName.replace("<type>", type);
         InputStream is = getClass().getClassLoader().getResourceAsStream(fileName);
+        assert is != null;
         Scanner scan = new Scanner(is);
         List<String> lines = new ArrayList<String>();
         while(scan.hasNextLine()) {

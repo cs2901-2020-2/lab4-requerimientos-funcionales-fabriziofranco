@@ -10,13 +10,22 @@ public class  DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public String calculate(List<String> part){
+    public String calculate(List<String> parts) throws Exception{
+        if(parts.size()>160000)
+            throw new TooManyLinesExcepction("Demasiadas subsecuencias");
+
         StringBuilder finalSequence= new StringBuilder("");
-        String previousSubsequence=part.get(0);
+        String previousSubsequence=parts.get(0);
+        if(previousSubsequence.length()>200)
+            throw new TooLongSubsequenceException("La subsecuencia "+previousSubsequence+" es demasiado larga");
+
         String currentSubsequence;
         finalSequence.append(previousSubsequence);
-        for(int iterator=1;iterator<part.size();iterator++) {
-            currentSubsequence = part.get(iterator);
+        for(int iterator=1;iterator<parts.size();iterator++) {
+            currentSubsequence = parts.get(iterator);
+            if(currentSubsequence.length()>200)
+                throw new TooLongSubsequenceException("La subsecuencia "+currentSubsequence+" es demasiado larga");
+
             String subSequenceinCommon = "";
             for (int i = 0; i < previousSubsequence.length(); i++) {
                 if (currentSubsequence.contains(previousSubsequence.substring(i))) {
